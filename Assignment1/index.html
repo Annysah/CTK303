@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <marquee direction="right">
+            <h1>Birthday Party 🥳</h1>
+        </marquee>
+    </header>
+    <main>
+        <div class="song-details">
+            <h2>#1 song on my birth week</h2>
+            <p>Title: Reason</p>
+            <p>Artist: Omah Lay</p>
+            <img class="cover" src="assets/cover.jpg" alt="Song Cover">
+
+            <button id="play-button">
+                <span class="button-text">Click to Listen</span>
+                <img src="assets/play.svg" alt="Play icon" />
+            </button>
+        </div>
+        <audio id="audio-player">
+            <source src="assets/song.mp3" type="audio/mp3">
+        </audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
