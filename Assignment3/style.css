@@ -19,7 +19,7 @@ body {
   }
 
   100% {
-    transform: translateY(90vh);
+    transform: translateY(100vh);
   }
 }
 
