@@ -2,11 +2,14 @@ body {
   background-repeat: no-repeat;
   background-image: url("bg.avif");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
-#svg {
-  margin: 40px 220px;
+.svg-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .circle {
