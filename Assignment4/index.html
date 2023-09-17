@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Poppins&family=Roboto&family=Ubuntu&display=swap"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    <h1>Pixel Drawing Board</h1>
+    <div class="db">
+        <img src="db.png" alt="Drawing board illustration" width="700" height="900" />
+    </div>
+    <canvas id="pixelCanvas" width="600" height="400"></canvas>
+    <div class="settings-wrapper">
+        <div class="card1">
+            <label for="colorPicker">Choose a color: </label>
+            <input type="color" id="colorPicker" class="color-picker" />
+        </div>
+        <div class="card2">
+            <label for="sizeSlider">Brush Size: </label>
+            <input type="range" id="sizeSlider" min="1" max="64" value="1">
+        </div>
+        <button onclick="clearCanvas()">Clear Canvas</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

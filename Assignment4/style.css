@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ededed;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 50px;
+}
+
+canvas {
+  background-color: #fff;
+  border: 2px solid #000;
+  position: absolute;
+  top: 220px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+.settings-wrapper {
+  position: absolute;
+  top: 200px;
+}
+
+.card1,
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 50px;
+  padding: 10px 8px;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 20px;
+  animation: slideIn 0.8s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+
+input[type="color"] {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+input[type="range"] {
+  margin-left: 20px;
+}
+
+button {
+  display: block;
+  width: 140px;
+  background-color: transparent;
+  font-weight: bold;
+  color: #000;
+  outline: none;
+  border: 1px solid #333;
+  margin: 15px auto;
+  padding: 14px 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
