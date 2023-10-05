@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.logo {
+  color: rgb(172, 142, 90) !important;
+}
+
+button .nav-link {
+  color: #fff !important;
+}
+
+#search-banner,
+#download-banner {
+  background-color: #f3f2ee !important;
+}
+
+h1 {
+  color: #290e03 !important;
+}
+
+.input-group-text {
+  background-color: #fff !important;
+  color: rgb(172, 142, 90) !important;
+}
+
+button {
+  background-color: rgb(172, 142, 90) !important;
+  color: #fff !important;
+}
+
+.dot {
+  color: rgb(172, 142, 90) !important;
+}
+
+.card {
+  background-color: #f3f2ee !important;
+}
+
+.fa-shopping-bag {
+  color: rgb(172, 142, 90) !important;
+}
